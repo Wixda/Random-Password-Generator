@@ -56,12 +56,15 @@ main div.rule {
 main #passwords-container {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 main #passwords-container .password {
     color: #55F991;
     background-color: #273549;
-    padding: 8px 42px;
+    width: 216px;
+    height: 36px;
+    padding: 8px;
+    text-align: center;
     font-weight: 500;
 }
