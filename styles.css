@@ -45,9 +45,10 @@ main #generate-btn {
     text-align: center;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-main div.rule {
+main .rule {
     height: 1px;
     background-color: #2F3E53;
     margin: 8px 0 24px;
