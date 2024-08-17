@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&family=Karla:wght@800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -18,10 +20,11 @@ main {
 }
 
 main h1 {
-
+    font-family: "Karla", sans-serif;
+    font-weight: 900;
     font-size: 40px;
     line-height: 40px;
-    letter-spacing: -2.5%;
+    letter-spacing: -1.5px;
     margin-bottom: 8px;
 }
 
@@ -30,12 +33,15 @@ main h1 span {
 }
 
 main #subhead {
+    font-family: "Inter", sans-serif;
     color: #D5D4D8;
     font-size: 20px;
     line-height: 28px;
+    font-weight: 400;
 }
 
 main #generate-btn {
+    font-family: "Inter", sans-serif;
     font-size: 14px;
     background-color: #10B981;
     color: #ffffff;
@@ -61,11 +67,12 @@ main #passwords-container {
 }
 
 main #passwords-container .password {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
     color: #55F991;
     background-color: #273549;
     width: 216px;
     height: 36px;
     padding: 8px;
     text-align: center;
-    font-weight: 500;
 }
