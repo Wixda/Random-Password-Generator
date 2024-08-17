@@ -54,6 +54,10 @@ main #generate-btn {
     cursor: pointer;
 }
 
+main #generate-btn:hover {
+    background-color: 	hsl(160, 84%, 34%);
+}
+
 main .rule {
     height: 1px;
     background-color: #2F3E53;
@@ -76,4 +80,43 @@ main #passwords-container .password {
     padding: 8px;
     text-align: center;
     border-radius: 4px;
+    cursor: pointer;
 }
+
+main .tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+  
+main .tooltip-container .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #2F3E53;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+main .tooltip-container .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #2F3E53 transparent transparent transparent;
+  }
+  
+main .tooltip-container:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

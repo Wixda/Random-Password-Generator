@@ -13,8 +13,14 @@
         <button id="generate-btn">Generate passwords</button>
         <div class="rule" role="separator"></div>
         <div id="passwords-container">
-            <p id="first-password" class="password"></p>
-            <p id="second-password" class="password"></p>
+            <div class="tooltip-container">
+                <p id="first-password" class="password"></p>
+                <span class="tooltiptext" id="first-tooltip">Copy to clipboard</span>
+            </div>
+            <div class="tooltip-container">
+                <p id="second-password" class="password"></p>
+                <span class="tooltiptext" id="second-tooltip">Copy to clipboard</span>
+            </div>
         </div>
     </main>
     <script src="script.js"></script>
