@@ -50,7 +50,7 @@ main #generate-btn {
     margin: 32px 0 24px;
     text-align: center;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -75,4 +75,5 @@ main #passwords-container .password {
     height: 36px;
     padding: 8px;
     text-align: center;
+    border-radius: 4px;
 }
